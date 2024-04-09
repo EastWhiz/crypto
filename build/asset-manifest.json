@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c0d6d3d.css",
+    "main.js": "/static/js/main.062a7b5e.js",
+    "static/js/453.905388a7.chunk.js": "/static/js/453.905388a7.chunk.js",
+    "static/media/dots-bg.png": "/static/media/dots-bg.59319f0fb1f2e9362242.png",
+    "static/media/main-section.png": "/static/media/main-section.95b4b2dd339243dbb5ac.png",
+    "static/media/revenue-operation-collage 1.png": "/static/media/revenue-operation-collage 1.e646588cecd33f48689b.png",
+    "static/media/secure-way.png": "/static/media/secure-way.afcf84f6f70d7e2c98ec.png",
+    "static/media/person3.png": "/static/media/person3.5e7f1c2073270f573d9a.png",
+    "static/media/person1.png": "/static/media/person1.d1e767a77dabab3b21fb.png",
+    "static/media/customer_support.png": "/static/media/customer_support.b7b0585fae48ba0c2636.png",
+    "static/media/person2.png": "/static/media/person2.a9209e67f0f01f96fd49.png",
+    "static/media/payment-method.png": "/static/media/payment-method.6ee906bf578366b2dd62.png",
+    "static/media/easy-transation.png": "/static/media/easy-transation.9cae1cdfb773f05c540e.png",
+    "static/media/timeline-img.png": "/static/media/timeline-img.d0b8a95413da0c856e52.png",
+    "static/media/verify-your-account.png": "/static/media/verify-your-account.8574882a28dbaf0e4c8a.png",
+    "index.html": "/index.html",
+    "main.2c0d6d3d.css.map": "/static/css/main.2c0d6d3d.css.map",
+    "main.062a7b5e.js.map": "/static/js/main.062a7b5e.js.map",
+    "453.905388a7.chunk.js.map": "/static/js/453.905388a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c0d6d3d.css",
+    "static/js/main.062a7b5e.js"
+  ]
+}

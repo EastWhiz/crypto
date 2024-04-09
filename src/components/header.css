@@ -1,0 +1,155 @@
+body{
+  font-family: "Sora", sans-serif;
+}
+.navbar-nav .nav-link {
+    color:  #475569 !important;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight:400;
+    font-family: "Sora", sans-serif !important;
+  }
+  .right-menu .nav-link{
+    color:  #475569 !important;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight:400;
+    font-family: "Sora", sans-serif !important; 
+  }
+  .dropend .dropdown-toggle {
+    margin-left: 1em;
+  }
+  .dropdown-item:hover {
+    color: #5DE295;
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .dropdown:hover > .dropdown-menu,
+  .dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+  }
+  .header-log0{
+    width: 65px;
+    height: 65px;
+  }
+  .header-log0 img{
+    width: 100%;
+  }
+  .header-menu-list{
+    gap: 70px;
+    margin-left: 70px;
+  }
+  .right-menu{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  .right-menu button{
+width: 131px;
+height: 44px;
+background: linear-gradient(270deg, #5DE295 0%, #305165 100%);
+border-radius: 7px;
+border: none;
+color: white;
+transition: 1s;
+
+  }
+  .right-menu button:hover{
+    background: linear-gradient(270deg, #305165 0%, #5DE295 100%);
+  }
+  #navbarSupportedContent{
+    justify-content: space-between;
+  }
+  .nav-link:focus, .nav-link:hover {
+    color: #5DE295 !important;
+  }
+  .language-selector select{
+    background-color: #F1F5F9;
+    height: 90px;
+    padding: 0px 12px 0px 20px;
+    border: none;
+    width: 90px;
+    appearance: none;
+    background-image: url(../images/chevron_down.png);
+    background-position: center right 1.5rem;
+    background-repeat: no-repeat;
+  }
+  .language-selector select:focus-visible {
+    outline: 0;
+  }
+  .main-top-bar-header{
+    padding: 0px !important;
+  }
+  .dropdown ul {
+    margin: 0 !important;
+  }
+  .main-mobile-menu-show{
+    display: none;
+  }
+  .footer-on-sm{
+    display: none !important;
+  }
+  @media screen and (max-width: 991px) {
+  .main-mobile-menu-show{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    margin-bottom: 0 !important;
+    gap: 40px;
+    
+  }
+  .right-menu{
+    flex-direction: row;
+    align-items: center !important;
+    margin-bottom: 0 !important;
+  }
+  .right-menu.hide-on.small-menu{
+    display: none;
+  }
+  .header-log0 {
+    width: 50px;
+    height: 60px;
+}
+.right-menu button {
+  width: 100px;
+  height: 45px;
+}
+.right-menu .nav-link {
+  font-size: 12px;
+}
+.main-mobile-menu-show {
+  gap: 15px;
+}
+.navbar-toggler{
+  padding: 5px !important;
+}
+}
+@media screen and (max-width: 576px) {
+.footer-on-sm{
+  display: block !important;
+  width: 100%;
+}
+.f-links{
+  display: none;
+}
+.footer-on-sm .f-links{
+  display: block !important;
+  margin-bottom: 30px !important;
+  width: 100%;
+}
+.footer-on-sm .f-links{}
+}
+  @media screen and (min-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    .dropend .dropdown-toggle {
+      margin-left: 0.5em;
+    }
+   
+  }
+  
